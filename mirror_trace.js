@@ -130,7 +130,7 @@ function do_mirror() {
 	ctx_mirror.lineWidth = 1.8;
 	ctx_mirror.lineJoin = 'round';
 	ctx_mirror.lineCap = 'round';
-	ctx_mirror.strokeStyle = '#c404fe';
+	ctx_mirror.strokeStyle = '#ff00f7';
 	
 	/* Mouse Capturing Work */
 	canvas.addEventListener('mousemove', function(e) {
@@ -225,7 +225,7 @@ function do_mirror() {
 			if (inline) {
 				ctx_mirror.strokeStyle = '#04fefa';
 			} else {
-				ctx_mirror.strokeStyle = '#c404fe';
+				ctx_mirror.strokeStyle = '#ff00f7';
 			}
 
 			if (mirror) {
